@@ -1,5 +1,5 @@
-export default function debounce(func: Function, wait: number = 0): Function {
-  let timeoutId: number;
+function debounce(func: Function, wait: number = 0): Function {
+  let timeoutId: NodeJS.Timeout;
   try {
     return function (this: any, ...args: any[]) {
       const context = this;
@@ -12,3 +12,7 @@ export default function debounce(func: Function, wait: number = 0): Function {
     throw "Not implemented";
   }
 }
+
+debounce(() => {
+  console.log("debounced", "arg");
+}, 5000)();

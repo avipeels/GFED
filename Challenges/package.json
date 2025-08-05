@@ -1,0 +1,10 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2"
+  }
+}
