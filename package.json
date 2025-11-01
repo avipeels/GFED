@@ -8,7 +8,9 @@
     "test:array": "ts-node Snippets/arrayProductExcludingCurrent.ts",
     "test:flatten": "ts-node Snippets/flatten.ts",
     "test:debounce": "ts-node Snippets/debounce.ts",
-    "test:classNames": "ts-node Snippets/classNames.ts"
+    "test:classNames": "ts-node Snippets/classNames.ts",
+    "test:arrayFilter": "ts-node Snippets/prototypeArrayFilter.ts",
+    "test:arrayReduce": "ts-node Snippets/prototypeArrayReduce.ts"
   },
   "devDependencies": {
     "@types/node": "^24.2.0",
