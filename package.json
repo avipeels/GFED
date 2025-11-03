@@ -11,7 +11,8 @@
     "test:classNames": "ts-node Snippets/classNames.ts",
     "test:arrayFilter": "ts-node Snippets/prototypeArrayFilter.ts",
     "test:arrayReduce": "ts-node Snippets/prototypeArrayReduce.ts",
-    "test:throttle": "ts-node Snippets/throttle"
+    "test:throttle": "ts-node Snippets/throttle",
+    "test:promiseAll": "ts-node Snippets/promiseAll"
   },
   "devDependencies": {
     "@types/node": "^24.2.0",
